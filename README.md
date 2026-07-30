@@ -64,3 +64,20 @@ binary-waterfall/
 ├── build.bat / build_mac.sh     # 构建脚本
 └── .github/workflows/build.yml  # CI 流水线
 ```
+
+## To Do List
+
+- [x] ~~更新依赖~~
+- [x] ~~打包 macOS、Linux 版本~~
+- [x] ~~补全快捷键~~
+- [x] ~~支持拖拽打开文件~~
+- [x] ~~最近打开文件列表~~
+- [x] ~~CPU 多线程加载~~
+- [ ] **支持硬件加速**
+  - [ ] **Windows/Linux (AMD)**
+  - [ ] **Windows/Linux (Intel)**
+  - [x] ~~Windows/Linux (NVIDIA)~~
+  - [x] ~~macOS (Apple Sillicon)~~
+  - [ ] **macOS (Intel)**
+- [ ] **本地化**
+- [ ] **重写 UI**
