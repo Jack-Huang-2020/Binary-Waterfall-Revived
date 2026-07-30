@@ -67,17 +67,28 @@ binary-waterfall/
 
 ## To Do List
 
+> [!NOTE]
+> **顺序由高优先级向低优先级递减**
+
 - [x] ~~更新依赖~~
-- [x] ~~打包 macOS、Linux 版本~~
+- [x] ~~打包 macOS、Linux 常用架构版本~~
 - [x] ~~补全快捷键~~
 - [x] ~~支持拖拽打开文件~~
 - [x] ~~最近打开文件列表~~
 - [x] ~~CPU 多线程加载~~
+- [ ] **本地化**
+- [ ] **多平台 多架构支持**
+  - [x] **Windows (x86_64 / amd64)**
+  - [ ] **Windows (aarch64 / arm64)**
+  - [x] **Linux (x86_64 / amd64)**
+  - [ ] **Linux (aarch64 / arm64)**
+  - [x] **macOS (arm64)**
+  - [ ] **macOS (x86_64)**
 - [ ] **支持硬件加速**
   - [ ] **Windows/Linux (AMD)**
   - [ ] **Windows/Linux (Intel)**
   - [x] ~~Windows/Linux (NVIDIA)~~
   - [x] ~~macOS (Apple Sillicon)~~
   - [ ] **macOS (Intel)**
-- [ ] **本地化**
+- [ ] **尝试写安卓版本 并支持硬件加速**
 - [ ] **重写 UI**
