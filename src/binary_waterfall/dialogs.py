@@ -1050,9 +1050,9 @@ class HotkeysInfo(QDialog):
         self.mute_key_label = QLabel("M")
         self.mute_key_label.setAlignment(Qt.AlignmentFlag.AlignVCenter | Qt.AlignmentFlag.AlignLeft)
 
-        self.scroll_label = QLabel("Scroll Up / Down // . / ,:")
+        self.scroll_label = QLabel("Scroll Up / Down (Fast):")
         self.scroll_label.setAlignment(Qt.AlignmentFlag.AlignVCenter | Qt.AlignmentFlag.AlignRight)
-        self.scroll_key_label = QLabel("Mouse Wheel (Fast)")
+        self.scroll_key_label = QLabel("Mouse Wheel // . / ,")
         self.scroll_key_label.setAlignment(Qt.AlignmentFlag.AlignVCenter | Qt.AlignmentFlag.AlignLeft)
 
         self.scroll_mod_label = QLabel("Scroll (Precise):")
